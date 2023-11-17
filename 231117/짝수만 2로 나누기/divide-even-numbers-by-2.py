@@ -3,6 +3,6 @@ arr=list(map(int,input().split()))
 def f1(n,arr):
     for i in range(n):
         if arr[i]%2==0:
-            arr[i]/2
+            arr[i]=arr[i]/2
     print(*arr)
 f1(n,arr)
