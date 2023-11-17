@@ -3,5 +3,5 @@ def f(a,b):
     if b>a:
         a,b=b,a
     a+=25; b*=2
-    return [a,b]
+    return [b,a]
 print(*f(a,b))
