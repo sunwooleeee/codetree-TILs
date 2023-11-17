@@ -6,4 +6,4 @@ def f(a1,a2,n):
         return a2
     else:
         return f(a2,(a1*a2)%100,n-1)
-print(f(a2))
+print(f(a1,a2,n))
