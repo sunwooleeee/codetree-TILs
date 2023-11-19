@@ -5,4 +5,4 @@ for i in range(m):
     sum=0
     for j in range(x-1,y):
         sum+=an[j]
-        print(sum)
+    print(sum)
