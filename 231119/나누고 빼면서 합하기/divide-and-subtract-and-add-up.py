@@ -2,7 +2,7 @@ n,m=map(int,input().split())
 arr=list(map(int,input().split()))
 
 def f(arr,m):
-    a_sum=
+    a_sum=0
     while m>1:
         if m%2==0:
             a_sum+=arr[m-1]
