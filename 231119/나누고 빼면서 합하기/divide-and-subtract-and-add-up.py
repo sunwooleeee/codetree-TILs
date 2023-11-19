@@ -5,7 +5,7 @@ def f(arr,m):
     a_sum=arr[m]
     while m>1:
         if m%2==0:
-            m/=2
+            m//=2
             a_sum+=arr[m]
         else:
             m-=1
