@@ -21,6 +21,5 @@ def f(arr,n,c):
 
     else:
         
-        return f(arr,n-1,f1(arr[n-1],c))
-c=f1(arr[n-1],arr[n])        
-print(f(arr,n,c))
+        return f(arr,n-1,f1(arr[n-1],c))       
+print(f(arr,n,f1(arr[n-1],arr[n]) ))
