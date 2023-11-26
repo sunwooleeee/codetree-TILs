@@ -1,6 +1,8 @@
 n=int(input())
 arr=list(map(int,input().split()))
-min_value=999999999999999999999999999999999999
+import sys
+
+min_value=sys.maxsize
 for k in range(n):
     sum_dif=0
     for j in range(n):
