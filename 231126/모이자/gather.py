@@ -1,6 +1,6 @@
 n=int(input())
 arr=list(map(int,input().split()))
-min_value=99999
+min_value=999999999999999999999999999999999999
 for k in range(n):
     sum_dif=0
     for j in range(n):
