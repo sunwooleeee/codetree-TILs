@@ -3,6 +3,6 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         char a;
         a='c';a='T';
-        System.out.print(a)
+        System.out.print(a);
     }
 }
