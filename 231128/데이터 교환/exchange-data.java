@@ -8,8 +8,8 @@ public class Main {
         a=c;
         b=temp_a;
         c=temp_b;
-        System.out.println(a)
-        System.out.println(b)
-        System.out.println(c)
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
     }
 }
