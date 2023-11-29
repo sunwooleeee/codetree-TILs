@@ -9,7 +9,7 @@ class c:
 new_arr=[]
 for idx,num in enumerate(arr):
     new_arr.append(c(num,idx))
-new_arr.sort(key=lambda x:x.num)
+new_arr.sort(key=lambda x:(x.num,x.idx))
 for i in range(n):
     new_arr[i].new_idx(i+1)
 new_arr.sort(key=lambda x:x.idx)
