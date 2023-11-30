@@ -8,4 +8,9 @@ def cal(m,d):
     d+=num_of_days[m]
     m-=1
     return cal(m,d)
-print(arr[cal(m2,d2)-cal(m1,d1)])
+re=cal(m2,d2)-cal(m1,d1)
+if re>0:
+    print(arr[(cal(m2,d2)-cal(m1,d1))%7])
+else:
+    re=-(abs(re)%7)
+    print(arr[re])
