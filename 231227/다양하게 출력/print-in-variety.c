@@ -1,7 +1,5 @@
 #include <stdio.h>
-
-int main() {
-    // 여기에 코드를 작성해주세요.
-    printf("Total days in Year\n%d\nCircumference rate\n%d",365 3.1415926535);
+int main(){
+    printf("Total days in Year\n%d\nCircumference rate\n3.145926535",365);
     return 0;
 }
