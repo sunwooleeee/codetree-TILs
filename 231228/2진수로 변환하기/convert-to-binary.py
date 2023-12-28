@@ -1,6 +1,9 @@
 n=int(input())
 arr=[]
 def f(n,arr):
+    if n==0:
+        print(0)
+        return
     if n==1:
         arr.insert(0,1)
         n=len(arr)
