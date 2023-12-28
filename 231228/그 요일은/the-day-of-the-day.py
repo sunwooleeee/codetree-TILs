@@ -7,7 +7,8 @@ for i in range(m1):
 for i in range(m2):
     d2+=num_of_days[i]
 d1+=arr.index(a)
-cnt=1
+d2+=1
+cnt=0
 while d1<=d2:
     cnt+=1
     d1+=7
