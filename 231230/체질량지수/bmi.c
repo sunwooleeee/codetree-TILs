@@ -1,14 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    // 여기에 코드를 작성해주세요.
-    int a,b;
-    scanf("%d%d",&a,&b);
-    int bmi;
-    bmi=b/(a*a);
-    printf("%d",bmi);
-    if (bmi>=25) {
+    int kg,cm;
+    scanf("%d%d",&cm,&kg);
+    double bmi;
+    double m;
+    m=(double)cm/100;
+    bmi=kg/(m*m);
+    printf("%d\n",(int)bmi);
+    if ((int)bmi>=25){
         printf("Obesity");
     }
+    
+    
     return 0;
 }
