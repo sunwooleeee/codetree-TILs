@@ -2,7 +2,7 @@
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    double n;
+    int n;
     scanf("%d",&n);
     if (n>=90){
         printf("A");
