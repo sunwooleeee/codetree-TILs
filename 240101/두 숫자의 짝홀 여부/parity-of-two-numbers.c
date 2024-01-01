@@ -11,7 +11,7 @@ int main() {
         printf("odd\n");
     }
     if (b%2==0){
-        printf("evenn\n");
+        printf("even\n");
     }
     else{
         printf("odd\n");
