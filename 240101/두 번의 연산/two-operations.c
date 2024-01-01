@@ -8,7 +8,7 @@ int main() {
         a+=3;
     }
     if a%3==0{
-        a/3;
+        a/=3;
     }
     printf("%d",a);
     return 0;
