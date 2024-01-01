@@ -5,16 +5,16 @@ int main() {
     int a;
     scanf("%d",&a);
     if (a%3==0){
-        printf("Yes\n");
+        printf("YES\n");
     }
     else{
-        printf("No\n");
+        printf("NO\n");
     }
     if (a%5==0){
-        printf("Yes\n");
+        printf("YES\n");
     }
     else{
-        printf("No\n");
+        printf("NO\n");
     }
     return 0;
 }
