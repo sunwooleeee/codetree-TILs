@@ -6,18 +6,18 @@ int main() {
     scanf("%d%d%d",&a,&b,&c);
     if (a<=b){
         if (a<=c){
-            printf(a);
+            printf("%d",a);
         }
         else if (a>=c){
-        printf(c);
+        printf("%d",c);
         }
     }
     else if (a>=b){
         if (b>=c){
-            printf(c);
+            printf("%d",c);
         }
         else if (b<=c){
-            printf(b);
+            printf("%d",b);
         }
     } 
     return 0;
