@@ -16,12 +16,15 @@ for i in range(n):
             arr[temp]+=1
 cnt=0
 for i in range(1,1001):
-    if arr[i-1]<2 and arr[i]>=2:
-        temp=i
-    elif arr[i-1]>=2 and arr[i]<2:
-        pass
-    elif arr[i]>=2 and arr[i+1]<2:
-        dif=i-temp
-        cnt+=dif
-    
+
+    if arr[i]<2:
+        if arr[i-1]<2:
+            pass
+        elif arr[i-1]>=2:
+            cnt+=i-1-temp
+    else:
+        if arr[i-1]<2:
+            temp=i
+        elif arr[i-1]>=2:
+            pass
 print(cnt)
