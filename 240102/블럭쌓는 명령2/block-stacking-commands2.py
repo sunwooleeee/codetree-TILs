@@ -6,4 +6,4 @@ for i in range(k):
     a,b=map(int,input().split())
     for j in range(a-1,b):
         arr[j]+=1
-    print(arr)
+print(max(arr))
