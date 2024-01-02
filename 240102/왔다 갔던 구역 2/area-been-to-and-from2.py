@@ -18,7 +18,8 @@ cnt=0
 for i in range(1,1001):
     if arr[i-1]<2 and arr[i]>=2:
         temp=i
-    
+    elif arr[i-1]>=2 and arr[i]<2:
+        pass
     elif arr[i]>=2 and arr[i+1]<2:
         dif=i-temp
         cnt+=dif
