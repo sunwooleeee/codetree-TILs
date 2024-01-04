@@ -5,16 +5,16 @@ int main() {
     int m;
     scanf("%d",&m);
     if ((3<=m) && (m<=5)){
-        printf("spring");
+        printf("Spring");
     }
     else if ((6<=m) && (m<=8)){
-        printf("summer");
+        printf("Summer");
     }
     else if ((9<=m) && (m<=11)){
-        printf("fall");
+        printf("Fall");
     }
     else {
-        printf("winter");
+        printf("Winter");
     }
     return 0;
 }
