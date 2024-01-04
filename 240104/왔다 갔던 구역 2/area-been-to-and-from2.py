@@ -1,19 +1,21 @@
 n=int(input())
 arr=[0 for i in range(1001)]
+before='k'
 temp=501
 for i in range(n):
     x,y=tuple(input().split())
     x=int(x)
-    if y=='R':
+    if before!=y:
         arr[temp]+=1
+    if y=='R':
         for j in range(x):
             temp+=1
             arr[temp]+=1
     else:
-        arr[temp]+=1
         for j in range(x):
             temp-=1
             arr[temp]+=1
+    before=y
 cnt=0
 for i in range(1,1001):
 
