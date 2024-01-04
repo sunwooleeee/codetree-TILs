@@ -7,7 +7,7 @@ int main() {
     if (b%2==0){
         b-=1;
     }
-    for (b;b>=a;b--){
+    for (b;b>=a;b-=2){
         printf("%d ",b);
     }
     return 0;
