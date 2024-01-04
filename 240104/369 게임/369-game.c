@@ -16,6 +16,9 @@ int main() {
                 if ((i/10==3) || (i/10==6) || (i/10==9)){
                     printf("0 ");
                 }
+                else{
+                    printf("%d ",i);
+                }
             }
         }
         else{
