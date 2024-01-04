@@ -21,10 +21,10 @@ for i in range(1,1001):
         if arr[i-1]<2:
             pass
         elif arr[i-1]>=2:
-            cnt+=i-1-temp
+            cnt+=i-1-idx
     else:
         if arr[i-1]<2:
-            temp=i
+            idx=i
         elif arr[i-1]>=2:
             pass
 print(cnt)
