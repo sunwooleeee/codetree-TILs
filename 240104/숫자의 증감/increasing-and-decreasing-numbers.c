@@ -11,8 +11,8 @@ int main() {
         }
     }
     else{
-        for (int i=1;n>=i;i--){
-            printf("%d ",i);
+        for (n;n>=1;n--){
+            printf("%d ",n);
         }
     }
     return 0;
