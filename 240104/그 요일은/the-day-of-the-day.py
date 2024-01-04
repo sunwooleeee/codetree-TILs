@@ -9,7 +9,8 @@ while m2>0:
     m2-=1
     d2+=num_of_days[m2]
 d1+=arr.index(a)
-cnt=1
+if d1<=d1:
+    cnt=1
 while d1+7<=d2:
     cnt+=1
     d1+=7
