@@ -11,17 +11,17 @@ int main() {
         if (a%2==0){
             printf("30");
         }
-        else{
+        else {
             printf("31");
         }
     }
-    else{
+    else {
         if (a%2==0){
-            printf("31");
-        
-        }
-    }   else{
+            printf("31");        
+            }
+       else{
         printf("30");
+        }
     }
     return 0;
 }
