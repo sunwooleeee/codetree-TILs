@@ -5,11 +5,11 @@ int main() {
     int n;
     while (true){
         scanf("%d",&n);
-        if (n>25){
-            printf("Higher");
+        if (n<25){
+            printf("Higher\n");
         }
-        else if (n<25){
-            printf("Lower");
+        else if (n>25){
+            printf("Lower\n");
         }
         else{
             printf("Good");
