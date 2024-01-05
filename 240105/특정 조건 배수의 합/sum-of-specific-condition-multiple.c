@@ -4,7 +4,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int a,b;
     int sum=0;
-    if (a<=b){
+    if (a>=b){
         int temp=a;
         a=b;
         b=temp;
