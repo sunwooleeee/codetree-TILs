@@ -8,5 +8,6 @@ int main() {
     for (n;n<=100;n++){
         sum+=n;
     }
+    printf("%d",sum);
     return 0;
 }
