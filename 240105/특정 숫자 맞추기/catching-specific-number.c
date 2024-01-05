@@ -13,6 +13,7 @@ int main() {
         }
         else{
             printf("Good");
+            break;
         }
     }
 
