@@ -10,5 +10,6 @@ int main() {
             cnt+=1;
         }
     }
+    printf("%d",cnt);
     return 0;
 }
