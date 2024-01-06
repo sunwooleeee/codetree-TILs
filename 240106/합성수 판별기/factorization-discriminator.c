@@ -6,7 +6,7 @@ int main() {
     bool satisfy;
     scanf("%d",&n);
     for (int i=2;i<n;i++){
-        if (n%i!=n){
+        if (n%i!=0){
             satisfy=true;
         }
     }
