@@ -5,6 +5,7 @@ int main() {
     int a;
     bool s=true;
     for (int i=1;i<=5;i++){
+        scanf("%d",&a);
         if (a%3!=0){
             s=false;
             break;
