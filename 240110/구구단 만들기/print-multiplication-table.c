@@ -6,7 +6,7 @@ int main() {
     scanf("%d%d",&a,&b);
     for (int i=1;i<=9;i++){
         for (int j=b;j>=a;j-=2){
-            if (j!=2){
+            if (j!=a){
                 printf("%d * %d = %d / ",j,i,j*i);
             }
             else{
