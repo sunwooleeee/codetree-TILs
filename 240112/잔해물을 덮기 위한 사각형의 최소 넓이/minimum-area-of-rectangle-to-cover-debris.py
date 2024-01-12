@@ -18,6 +18,7 @@ for i in range(2000):
             cnt+=1
         if (arr[i][j]==3 and cnt>=1):
             temp+=1
+            print(temp)
         if arr[i][j]==1:
             cnt+=temp
             temp=0
