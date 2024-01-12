@@ -1,11 +1,13 @@
 x1,y1,x2,y2=map(int,input().split())
+xx1,yy1,xx2,yy2=map(int,input().split())
+if (x1>=xx1 and x2<=xx2) or (y1>=yy1 and y2<=yy2):
+    print((x2-1-x1)*(y2-1-y1))
 arr=[[0]*2000 for _ in range(2000)]
 for i in range(x1,x2):
     for j in range(y1,y2):
         arr[i][j]+=1
-x1,y1,x2,y2=map(int,input().split())
-for i in range(x1,x2):
-    for j in range(y1,y2):
+for i in range(xx1,xx2):
+    for j in range(yy1,yy2):
         arr[i][j]+=3
 j_max=0
 i_max=0
