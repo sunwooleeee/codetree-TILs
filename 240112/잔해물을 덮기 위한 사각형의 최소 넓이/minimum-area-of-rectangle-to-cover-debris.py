@@ -1,7 +1,5 @@
 x1,y1,x2,y2=map(int,input().split())
 xx1,yy1,xx2,yy2=map(int,input().split())
-if (x1>=xx1 and x2<=xx2) or (y1>=yy1 and y2<=yy2):
-    print((x2-1-x1)*(y2-1-y1))
 arr=[[0]*2000 for _ in range(2000)]
 for i in range(x1,x2):
     for j in range(y1,y2):
@@ -30,6 +28,6 @@ for j in range(2000):
 if  (i_max*j_max)==0:
     print(0)
 elif (x1>=xx1 and x2<=xx2) or (y1>=yy1 and y2<=yy2):
-    print((x2-1-x1)*(y2-1-y1))
+    print((x2-x1)*(y2-y1))
 else:
     print(i_max*j_max)
