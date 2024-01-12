@@ -27,6 +27,7 @@ for i in range(2000):
 
 for j in range(2000):
     cnt=0
+    temp=0
     for i in range(2000):
         if arr[i][j]==1:
             cnt+=1
