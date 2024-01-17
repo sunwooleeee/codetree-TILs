@@ -4,9 +4,11 @@ n=int(input())
 for i in range(n):
     a=input()
     if a.startswith('push_front'):
-        dq.appendleft(a[-1])
+        a,b=a.split(" ")
+        dq.appendleft(b)
     if a.startswith("push_back"):
-        dq.append(a[-1])
+        a,b=a.split(" ")
+        dq.append(b)
     if a.startswith("pop_front"):
         print(dq.popleft())
     if a.startswith("pop_back"):
