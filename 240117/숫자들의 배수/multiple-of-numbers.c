@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n);
     while (cnt<2){
         arr[i]=n*(i+1);
-        if ((i+1)%5==0){
+        if ((arr[i]*(i+1))%5==0){
             cnt+=1;
         }
         i++;
