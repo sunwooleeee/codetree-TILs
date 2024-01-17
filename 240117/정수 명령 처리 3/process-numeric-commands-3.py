@@ -4,7 +4,7 @@ n=int(input())
 for i in range(n):
     a=input()
     if a.startswith('push_front'):
-        a,b=a.split(" ")
+        b=int(a.split()[1])
         dq.appendleft(b)
     if a.startswith("push_back"):
         a,b=a.split(" ")
