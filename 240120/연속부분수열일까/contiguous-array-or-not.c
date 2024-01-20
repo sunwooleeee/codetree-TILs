@@ -14,8 +14,7 @@ int main() {
         scanf("%d",&B[i]);
     }
     for (int i=0;i<=n1-1;i++){
-        if ((A[i]==B[0]) && (TF=false)){
-            if ((n1-i)>=n2){
+        if ((A[i]==B[0]) && (TF=false) && ((n1-i)>=n2)){
                 int cnt=0;
                 for (int j=i;j<=i+n2-1;j++){
                     if (A[j]==B[cnt]){
@@ -28,9 +27,6 @@ int main() {
                         break;
                     }
                 }
-            }
-            else{
-                break;
             }
         }
     }
