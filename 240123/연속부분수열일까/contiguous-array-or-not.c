@@ -24,7 +24,7 @@ int main() {
                     break;
                 }
             }
-            if (idx-1==n2){
+            if (idx==n2){
                 TF=true;
             }
         }
