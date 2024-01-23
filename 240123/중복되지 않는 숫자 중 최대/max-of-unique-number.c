@@ -14,7 +14,7 @@ int main() {
     
     int max=INT_MIN;
     for (int i=0;i<=1000;i++){
-        if (arr[i]==1 && max<arr[i] ){
+        if (arr[i]==1 && max<i ){
             max=i;
         }
     }
