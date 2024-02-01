@@ -15,11 +15,11 @@ int main() {
     for (int i=0;i<10;i++){
         if ((arr[i][strlen(arr[i])-1])==s){
             printf("%s\n",arr[i]);
-            TF=false
+            TF=false;
         }
     }
     if (TF){
-        printf("None")
+        printf("None");
     }
     return 0;
 }
