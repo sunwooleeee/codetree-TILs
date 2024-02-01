@@ -12,7 +12,7 @@ int main() {
         printf("%c",s[i]);
     }
     for (int i=0;i<strlen(c);i++){
-        if (s[i]=='\n' || c[i]==' '){
+        if (c[i]=='\n' || c[i]==' '){
             continue;
         }
         printf("%c",c[i]);
