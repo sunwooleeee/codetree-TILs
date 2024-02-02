@@ -7,7 +7,7 @@ int main() {
     scanf("%s %d",&s,&n);
     if (strlen(s)<n){
         for (int i=strlen(s)-1;i>=0;i--){
-            printf("%c",&s[i]);
+            printf("%c",s[i]);
         }
     }
     else{
