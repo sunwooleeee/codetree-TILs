@@ -7,7 +7,7 @@ int main() {
     scanf("%s",&a);
     int n=strlen(a);
     for (int i=0;i<=5;i++){
-        if (i==n){
+        if (i==5){
             a[n+i]='\0';
         }
         else{
