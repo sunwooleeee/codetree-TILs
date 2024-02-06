@@ -6,7 +6,7 @@ int main() {
     int n;
     scanf("%s %d",&s,&n);
     int m=strlen(s);
-    if (n>m){
+    if (n>=m){
         printf("%s",s);
     }
     else{
