@@ -27,6 +27,6 @@ int main() {
     else{
         printf("false");
     }
-    printf("\n%s\n%s",a,b);
+    
     return 0;
 }
