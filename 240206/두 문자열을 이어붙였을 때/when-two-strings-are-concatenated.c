@@ -21,7 +21,7 @@ int main() {
         }
         a[n+i]=b[i];
     }
-    if (a==b){
+    if (strcmp(a,b)==0){
         printf("true");
     }
     else{
