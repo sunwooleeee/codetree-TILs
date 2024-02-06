@@ -7,15 +7,12 @@ int main() {
     scanf("%s %d",&s,&n);
     int m=strlen(s);
     if (n>=m){
-        for (int i=m-1;m>=0;m--){
+        for (int i=m-1;i>=0;i--){
             printf("%c",s[i]);
-            if (i==0){
-                break;
-            }
         }
     }
     else{
-        for (int i=m-1;i>m-n-1;i--){
+        for (int i=m-1;i>m-1-n;i--){
             printf("%c",s[i]);
         }
     }
