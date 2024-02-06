@@ -9,6 +9,9 @@ int main() {
     if (n>=m){
         for (int i=m-1;m>=0;m--){
             printf("%c",s[i]);
+            if (i==0){
+                break;
+            }
         }
     }
     else{
