@@ -7,6 +7,6 @@ public class Main {
         int m=sc.nextInt();
         int d=sc.nextInt();
         int y=sc.nextInt();
-        System.out.printf("%d-%d-%d",y,m,d);
+        System.out.printf("%d.%d.%d",y,m,d);
     }
 }
