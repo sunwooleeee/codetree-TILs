@@ -14,6 +14,6 @@ public class Main {
             }
             break;
         }
-        System.out.printf("%.1f",(double)(sum)/n);
+        System.out.printf("%.2f",(double)(sum)/n);
     }
 }
